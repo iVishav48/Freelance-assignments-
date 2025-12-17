@@ -25,14 +25,24 @@ The program uses the Koch snowflake algorithm applied to regular polygons:
 - `v1.py` - Basic implementation with user input dialogs
 - `v2.py` - Alternative implementation (may have variations)
 - `v3.py` - Another variant implementation
+- `simple_pattern.py` - Humanized version with simple terminology and console input
 
 ## Usage
+### GUI Versions (v1.py, v2.py, v3.py)
 1. Run any of the Python files (`v1.py`, `v2.py`, or `v3.py`)
 2. Enter the following when prompted:
    - Number of sides for the polygon
    - Side length of each edge
    - Recursion depth (higher = more detail)
 3. The program will display the recursive pattern
+
+### Console Version (simple_pattern.py)
+1. Run `simple_pattern.py`
+2. Answer the questions in the console:
+   - How many sides for your shape?
+   - How long should each side be?
+   - How bumpy should the lines be?
+3. The program will draw the pattern with friendly messages
 
 ## Examples
 - **Triangle (3 sides)**: Creates Koch snowflake
