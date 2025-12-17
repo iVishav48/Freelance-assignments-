@@ -2,7 +2,8 @@ import os
 import csv
 import math
 
-folder = "temperatures"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+folder = os.path.join(script_dir, "temperatures")
 
 seasons = {
     "Summer": [12, 1, 2],
@@ -23,7 +24,7 @@ all_files = os.listdir(folder)
 
 for file in all_files:
     if file.endswith(".csv"):
-        full_path = folder + "/" + file
+        full_path = os.path.join(folder, file)
         
         f = open(full_path, "r")
         reader = csv.DictReader(f)

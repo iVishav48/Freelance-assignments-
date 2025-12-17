@@ -4,7 +4,8 @@ import math
 from collections import defaultdict
 from datetime import datetime
 
-folder = "temperatures"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+folder = os.path.join(script_dir, "temperatures")
 
 season_months = {
     "Summer": [12, 1, 2],

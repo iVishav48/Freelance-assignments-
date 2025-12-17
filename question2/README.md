@@ -32,11 +32,26 @@ Process CSV files containing temperature readings from various weather stations 
 ## Implementations
 - `main.py` - Efficient implementation using defaultdict and built-in functions
 - `main2.py` - Detailed implementation with explicit calculations
+- `weather_analyzer.py` - Humanized version with simple terminology and friendly output
+- `weather_simple.py` - Ultra-simple version with basic methods and names
 
 ## Usage
+### Standard Versions (main.py, main2.py)
 1. Ensure temperature CSV files are in the `temperatures/` directory
 2. Run either `main.py` or `main2.py`
 3. Results will be written to text files in the current directory
+
+### Humanized Version (weather_analyzer.py)
+1. Ensure temperature CSV files are in the `temperatures/` directory
+2. Run `weather_analyzer.py`
+3. Watch the friendly progress messages and analysis
+4. Results will be written to text files with detailed console output
+
+### Simplified Version (weather_simple.py)
+1. Ensure temperature CSV files are in the `temperatures/` directory
+2. Run `weather_simple.py`
+3. Minimal output, basic processing
+4. Results will be written to text files
 
 ## Output Files
 - `average_temp.txt` - Seasonal temperature averages
